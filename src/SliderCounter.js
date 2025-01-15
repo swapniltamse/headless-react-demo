@@ -20,10 +20,10 @@ export function SliderCounter() {
       <input
         type="range"
         min="0"
-        max="100"
+        max="140"
         value={count}
         onChange={handleSliderChange}
-        style={{ width: "300px" }}
+        style={{ width: "900px" }}
       />
       <button onClick={reset} style={{ display: "block", marginTop: "10px" }}>
         Reset
