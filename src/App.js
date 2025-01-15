@@ -1,6 +1,7 @@
 import React from "react";
 import { ButtonCounter } from "./ButtonCounter";
 import { SliderCounter } from "./SliderCounter";
+import { TextCounter } from "./TextCounter";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       </h1>
       <ButtonCounter />
       <SliderCounter />
+      <TextCounter />
     </div>
   );
 }
