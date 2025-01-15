@@ -1,14 +1,15 @@
-
 import React from "react";
-import { useCounter } from "./useCounter";
-import { CounterUI } from "./CounterUI";
+import { ButtonCounter } from "./ButtonCounter";
+import { SliderCounter } from "./SliderCounter";
 
 function App() {
-  const counter = useCounter(0);
-
   return (
     <div>
-      <CounterUI {...counter} />
+      <h1 style={{ textAlign: "center", margin: "20px" }}>
+        Demonstrating Headless React
+      </h1>
+      <ButtonCounter />
+      <SliderCounter />
     </div>
   );
 }
